@@ -7,13 +7,12 @@
     <meta http-equiv="refresh" content="60">
     
     <link rel="icon" href="office.jpg">
-<html>
-<head>
+    
     <title></title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript">
 
-    var keyword = "mountains";
+    var keyword = "animals";
 
     $(document).ready(function(){
 
@@ -29,6 +28,9 @@
             var image_src = data.items[rnd]['media']['m'].replace("_m", "_b");
 
             $('body').css('background-image', "url('" + image_src + "')");
+            $('body').css('background-position', "center");
+            $('body').css('background-repeat', "no-repeat");
+            $('body').css('background-size', "cover");
 
         });
 
