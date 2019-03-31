@@ -14,3 +14,16 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+div
+{
+ /*style="position: absolute; top:  50%; left: 50%; transform: translate(-50%,-50%); text-align:center; color:white; font:Arial, sans-serif; font-size:50px"*/
+  position: absolute;
+  top     : 50%;
+  left:   : 50%;
+  transform:  translate(-50%, -50%);
+
+  font: Arial,sans-serif;
+  font-size:20px;
+  color: white;
+}
